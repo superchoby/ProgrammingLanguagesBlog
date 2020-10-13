@@ -17,7 +17,22 @@ Before getting started with FP, it is important to understand a few key differen
       ```
       This will produce an error saying "Multiple declerations of 'yes'"
       
-  * Everything is a function - There are no classes in FP and as a result, you can't have things such as objects and every function is meant to perform a specific task
+  * Everything is a function - There are no classes in FP and as a result, you can't have things such as objects and every function is meant to perform a specific task. This can make the code a lot cleaner and easier to read.
+  
+     Here's how a minimal file that squares a number would look like in Java:
+     ```java
+       public class SquareNumber {
+          int squareNumbers(int x) {
+             return x ^ 2;
+          }
+       }
+     ```
+     
+     Here's how a file with the same functionality would look like in Haskell:
+     ```hs
+        squareNumber x = x ^ 2
+     ```
+  
   * Uses recursion for iteration - since loops can not be used, recursion is used instead This means things like a for loop such as ``(for int i = 0; i < 5; i++)`` can not be performed because the ``i`` value can't be increased by one every loop
   
  
