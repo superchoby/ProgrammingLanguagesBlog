@@ -1,8 +1,8 @@
 # Interesting Things about Functional Programming
 
-When people who are used to object oriented programming attempt to learn functional programming, they tend to try to associate newly acquired knowledge with already known knowledge in order to understand the concepts themselves and given how different functional and object oriented programming is, this often results in failure and many people get discouraged from it and thing functional programming is weird and just not for them. Here I would like to introduce the smoothest way to transition into the world of functional programming.
+When people who are used to object oriented programming attempt to learn functional programming, they tend to try to associate newly acquired knowledge with already known knowledge in order to understand the concepts themselves and given how different functional and object oriented programming is, this often results in failure and many people get discouraged from it and thing functional programming is weird and just not for them. Here I would like to introduce some core and fun things about functional programming that will help you gain that functional programming mindset when trying to learn it
 
-## Before you get Started
+## Just a few of the Cool Features
 Before getting started with FP, it is important to understand a few key differences.
   * Variables are immutable - Data is immutable in functional programming which preserves the purity of functions so that you know what they do everytime.
       While in an object oriented language like Java, you can do this:
@@ -51,6 +51,7 @@ Before getting started with FP, it is important to understand a few key differen
        factorial n = n * factorial (n-1)
     ```
     
+Now you know some cool parts about functional programming and can hopefully see the benefits of learning it. Knowledge of these core differences between functional programming and will help tremendously when it comes to gaining proficieny in a functional programming langauge.
     
     
     
