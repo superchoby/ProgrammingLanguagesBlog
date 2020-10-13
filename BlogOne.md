@@ -1,1 +1,24 @@
-# Cool Things about Functional Programming
+# Interesting Things about Functional Programming
+
+When people who are used to object oriented programming attempt to learn functional programming, they tend to try to associate newly acquired knowledge with already known knowledge in order to understand the concepts themselves and given how different functional and object oriented programming is, this often results in failure and many people get discouraged from it and thing functional programming is weird and just not for them. Here I would like to introduce the smoothest way to transition into the world of functional programming.
+
+## Before you get Started
+Before getting started with FP, it is important to understand a few key differences.
+  * Variables are immutable - Data is immutable in functional programming which preserves the purity of functions so that you know what they do everytime.
+      While in an object oriented language like Java, you can do this:
+      ```java
+         int canBeChanged = 5
+         canBeChanged = 10
+      ```
+      In a functional programming language like haskell, that can not be done.
+      ```hs
+        cannotBeChanged = 5
+        cannotBeChanged = 10
+      ```
+      This will produce an error saying "Multiple declerations of 'yes'"
+      
+  * Everything is a function - There are no classes in FP and as a result, you can't have things such as objects and every function is meant to perform a specific task
+  * Uses recursion for iteration - since loops can not be used, recursion is used instead This means things like a for loop such as ``(for int i = 0; i < 5; i++)`` can not be performed because the ``i`` value can't be increased by one every loop
+  
+ 
+
