@@ -21,7 +21,7 @@ Before getting started with FP, it is important to understand a few key differen
   
      Here's how a minimal file that squares a number would look like in Java:
      ```java
-       public class SquareNumber {
+       public SquareNumber {
           int squareNumbers(int x) {
              return x ^ 2;
           }
@@ -33,7 +33,28 @@ Before getting started with FP, it is important to understand a few key differen
         squareNumber x = x ^ 2
      ```
   
-  * Uses recursion for iteration - since loops can not be used, recursion is used instead This means things like a for loop such as ``(for int i = 0; i < 5; i++)`` can not be performed because the ``i`` value can't be increased by one every loop
-  
+  * Uses recursion for iteration - since loops can not be used, recursion is used instead.
+    Here is a function in Java that finds the factorial of a number iteratively
+    ```java
+       static int factorial(int n) 
+       { 
+           int res = 1, i; 
+           for (i=2; i<=n; i++) 
+               res *= i; 
+           return res; 
+       } 
+    ```
+    
+    Due to the immutibility of variables in functional programming for loops such as ``(for int i = 0; i < 5; i++)`` can not be used as the value of the ``i`` variable can't be increased every loop, so recursion is used.
+    ```hs
+       factorial 0 = 1
+       factorial n = n * factorial (n-1)
+    ```
+    
+    
+    
+    
+
+
  
 
