@@ -28,5 +28,7 @@ The Haskell program does not use booleans while the Python program uses them to 
 ## The handling of the situation where the function needs to be called again
 When the function needs to be called again, in the scenario where both the arguments are greater than 0, the way the arguments are handled is slightly different. Haskell is able to automatically subtract one from the parameter and set it equal to a new variable however in Python you have to explicity declare a statement that subtracts one from the argument and you either have to subtract it yourself and pass it as an argument or set it equal to a variable and pass that variable in the function call.
 
-
+## Default handler if nothing else passes
+Although not shown in this example with the Haskell program, a function defintion can be written that handles any case. You can pass variable names to the arguments on the function and it will accept any argument type and run the function. The equivalent to that in OOP is the else statement.
+</br>
 These are some of the differences between pattern matching and if else statements. I encourage you to do more functional programming in order to strengthen your knowledge of this great tool called pattern matching.
