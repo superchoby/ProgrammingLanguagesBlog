@@ -1,7 +1,7 @@
 # Haskell Performance vs C Performance
 Here we will benchmark some algorithms in Haskell and C to see how they compare. We will start with simpler algorithms and move our way
 up to more complex ones. To time our Haskell algorithms, we will use the ``:set +s`` command. To time our C algorithms, we will use the time library found in the C standard library.
-## Printing the numbers from 100000 to 0
+## Printing the sqrt of the numbers from 100000 to 0
 ### Haskell 
 ```hs
 printSqrtToZero 0 = print 0
