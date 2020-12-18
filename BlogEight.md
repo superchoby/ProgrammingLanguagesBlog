@@ -30,7 +30,7 @@ This took 3.21 seconds
 ```py
 print(list(map(multiplyByFive, numbers)))
 ```
-This took .075
+This took .075 seconds.
 
 ## Concatenating Lists
 These programs will concatenate two lists of size 100000
