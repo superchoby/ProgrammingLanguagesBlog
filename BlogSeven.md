@@ -32,7 +32,5 @@ When the function needs to be called again, in the scenario where both the argum
 Although not shown in this example with the Haskell program, a function defintion can be written that handles any case. You can pass variable names to the arguments on the function and it will accept any argument type and run the function. The equivalent to that in OOP is the else statement.
 </br>
 </br>
-</br>
-</br>
 
 These are some of the differences between pattern matching and if else statements. I encourage you to do more functional programming in order to strengthen your knowledge of this great tool called pattern matching.
