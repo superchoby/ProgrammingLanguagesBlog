@@ -23,7 +23,7 @@ This took .128919 seconds
 These programs will print 10 times every element in a list of size 200000. 
 ### Haskell 
 ```hs
-printSqrtToZero 199999 arr = do
+printArrElement 199999 arr = do
     print (arr!!199999);
     print (arr!!199999);
     print (arr!!199999);
@@ -35,7 +35,7 @@ printSqrtToZero 199999 arr = do
     print (arr!!199999);
     print (arr!!199999);
 
-printSqrtToZero i arr = do
+printArrElement i arr = do
     print (arr!!i);
     print (arr!!i);
     print (arr!!i);
@@ -46,7 +46,7 @@ printSqrtToZero i arr = do
     print (arr!!i);
     print (arr!!i);
     print (arr!!i);
-    printSqrtToZero (i + 1) arr
+    printArrElement (i + 1) arr
 ```
 This took 667.32 seconds
 
