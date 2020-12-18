@@ -1,6 +1,6 @@
 # Haskell Performance vs Python Performance
 Here we will benchmark some algorithms in Haskell and Python to see how they compare. We will start with simpler algorithms and move our way
-up to more complex ones. To time our Haskell algorithms, we will use the ``:set +s`` command. To time out Python algorithms, we will the time library found in the Python standard library.
+up to more complex ones. To time our Haskell algorithms, we will use the ``:set +s`` command. To time out Python algorithms, we will use the time library found in the Python standard library.
 ## Printing the numbers from 100000 to 0
 ### Haskell 
 ```hs
