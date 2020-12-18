@@ -1,5 +1,5 @@
-# Haskell Performance vs Javascript Performance
-Here we will benchmark some algorithms in Haskell and Javascript to see how they compare. We will start with simpler algorithms and move our way
+# Haskell Performance vs Python Performance
+Here we will benchmark some algorithms in Haskell and Python to see how they compare. We will start with simpler algorithms and move our way
 up to more complex ones. To time our Haskell algorithms, we will use the ``:set +s`` command. To time out Python algorithms, we will the time library found in the Python standard library.
 ## Printing the numbers from 100000 to 0
 ### Haskell 
@@ -18,7 +18,7 @@ for i in range(100000):
 ```
 This took .2359 seconds
 
-## The ``map`` function in Javascript and Haskell
+## The ``map`` function in Python and Haskell
 These programs will use the ``map`` function to multiply every number in a list of size 200000 by 5.
 ### Haskell 
 ```hs
